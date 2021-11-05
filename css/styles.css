@@ -4239,8 +4239,8 @@ textarea.form-control-lg {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -7693,7 +7693,7 @@ textarea.form-control-lg {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: none;
 }
 
 .text-capitalize {
@@ -11362,9 +11362,9 @@ p {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: #fff;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.03em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
