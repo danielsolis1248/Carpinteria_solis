@@ -117,7 +117,7 @@ body {
 }
 
 .tz-gallery .lightbox img {
-  width: 88%;
+  width: 84%;
   margin-bottom: 25px;
   transition: 0.2s ease-in-out;
   box-shadow: -7px 7px 3px rgb(0 0 0 / 20%);
@@ -11727,8 +11727,8 @@ header.masthead .masthead-heading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
+    width: 194px;
+    height: 194px;
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
