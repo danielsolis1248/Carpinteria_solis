@@ -4190,7 +4190,7 @@ textarea.form-control-lg {
 .navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 .navbar-brand {
@@ -11551,16 +11551,17 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 11rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/Fondo\ del\ encabezado.jpg");
+  background-image: url("../assets/img/Fondo\ del\ encabezado\ oscuro.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  
+ 
+
 }
 
 
@@ -11590,6 +11591,8 @@ header.masthead .masthead-heading {
     line-height: 3rem;
     margin-bottom: 2rem;
     position: relative;
+    
+
   }
   header.masthead .masthead-heading {
     font-size: 2rem;
