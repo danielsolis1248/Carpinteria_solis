@@ -627,80 +627,43 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            <form id="contactForm" method="post" data-sb-form-api-token="API_TOKEN" data-netlify="true" >
+            <form name="contactForm" id="formulario" method="POST" data-netlify="true" >
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
                             <!-- Ingreso de nombre -->
-                            <input class="form-control" id="name" name="nombreApellido" type="text"
-                                placeholder="Ingresa tu nombre y apellido *" data-sb-validations="required"/>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Se necesita poner un nombre
-                            </div>
+                            <input class="form-control" id="name" name="nombre" type="text"
+                                placeholder="Ingresa tu nombre y apellido *" required/>
+                           
                         </div>
                         <div class="form-group">
                             <!-- Ingreso de correo electronico -->
-                            <input class="form-control" id="email" name="correoElectronico" type="email" placeholder="Ingresa tu correo *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">Se necesita poner un e-mail
-                            </div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">El correo electronico ingresado
-                                no es valido</div>
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Ingresa tu correo *"
+                            required/>
+                
                         </div>
                         <div class="form-group mb-md-0">
                             <!-- Ingreso de numero de telefono -->
-                            <input class="form-control" id="phone" name="telefono" type="tel"
-                                placeholder="Ingresa tu numero de telefono *" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">Se necesita poner un número
-                                de telefono
-                            </div>
+                            <input class="form-control" id="phone" name="phone" type="tel"
+                                placeholder="Ingresa tu numero de telefono *" required/>
+                           
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!--Mensaje de texto-->
-                            <textarea class="form-control" id="message" name="mensaje" placeholder="Escribe tu mensaje *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">No se permiten mensajes
-                                vacios
-                            </div>
+                            <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje *"
+                            required></textarea>
+                           
                         </div>
                     </div>
                 </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Se envió el mensaje de forma exitosa ✔</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error de envio del mensaje</div>
-                </div>
-                <!-- Submit Button-->
+    
                 <div class="text-center">
-                    <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" name="botonEnviar"
-                    type="submit">Enviar mensaje 📧</button>
+                    <button class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar mensaje 📧</button>
                 </div>
-
-                
                
             </form>
-
-            <!--INTEGRACION DEL ARCHIVO PHP AL FORMULARIO DE CORREO-->
-
-            <?php
-            include("correo.php")
-            ?>
 
         </div>
     </section>
@@ -991,7 +954,7 @@
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
 </body>
 
 </html>
